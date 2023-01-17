@@ -1,6 +1,8 @@
 @import "normalize.css";
 
-* {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
@@ -10,19 +12,19 @@ html {
 }
 
 body {
-    background-color: var(--text-color);
+    color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
 
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h3, h4, h5, h {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
 
-a a.href {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
@@ -53,7 +55,7 @@ a:active {
 }
 
 .section-header {
-    align-content: var(--section-header-align);
+    text-align: var(--section-header-align);
     padding: var(--section-header-padding);
 }
 
@@ -89,7 +91,8 @@ a:active {
 
 .container {
     width: 960px;
-    margin: 0 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar-menu {
@@ -122,10 +125,10 @@ a:active {
     color: nav-item-link-hover;
 }
 
-ul .row {
-    margin: 0 0 0;
-    padding: 0 0 0;
-    list-style: none;
+ul.row {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 [class*="col-"] {
@@ -173,9 +176,9 @@ ul .row {
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4%rem;
-    --nav-item-display: inline-block;
-    --nav-item-margin: 0 3x;
+    --nav-item-letter-spacing: 0.04rem;
+    --nav-item-display:inline-block;
+    --nav-item-margin:0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
 }
@@ -212,15 +215,15 @@ ul .row {
     clear: both;
 }
 
-.card-services> .card-title {
+.card-services > .card-title {
     margin: 0;
 }
-.card-services>a {
+.card-services > a {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
 }
-.card-services>a :hover {
+.card-services > a :hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
