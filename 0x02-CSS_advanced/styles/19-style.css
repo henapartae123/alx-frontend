@@ -98,7 +98,7 @@ a:active {
 .nav .nav-link :hover {
     color: nav-item-link-hover;
 }
-ul .row {
+ul.row {
     margin: 0;
     padding: 0;
     list-style-type: none;
