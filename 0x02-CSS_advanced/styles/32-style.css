@@ -314,11 +314,11 @@ ul .row {
     object-fit: cover;
     vertical-align: bottom;
 }
-.card-work :hover .card-image  {
+.card-work:hover .card-image  {
     transform: scale(1.2);
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
-.card-work :hover .card-outer  {
+.card-work:hover .card-outer  {
     transform: scale(0.95);
 }
 .card-work .card-inner {
