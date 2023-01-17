@@ -205,7 +205,7 @@ ul.row {
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
-.button :hover {
+.button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decorattion);
     background-color: var(--button-hover-background);
