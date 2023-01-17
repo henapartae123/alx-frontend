@@ -259,15 +259,15 @@ ul .row {
     clear: both;
 }
 
-.card-services> .card-title {
+.card-services .card-title {
     margin: 0;
 }
-.card-services>a {
+.card-services a {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
 }
-.card-services>a :hover {
+.card-services a :hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
@@ -276,15 +276,15 @@ ul .row {
 .card-testimonial {
     text-align: center;
 }
-.card-testimonial> .card-avatar {
+.card-testimonial .card-avatar {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
 }
-.card-testimonial>.card-quote {
+.card-testimonial .card-quote {
     position: relative;
 }
-.card-testimonial>.card-quote ::before {
+.card-testimonial .card-quote::before {
     content: \201C;
     position: absolute;
     top: -4.5rem;
@@ -293,7 +293,7 @@ ul .row {
     font-size: 10rem;
     z-index: -1;
 }
-.card-testimonial>.card-quote>cite {
+.card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
@@ -315,7 +315,7 @@ ul .row {
     right: -0.1rem;
     z-index: 1;
 }
-.card-work .card-inner :hover {
+.card-work:hover .card-inner  {
     background-color:rgba(0, 0, 0, 0.7) ;
 }
 .card-work .card-title {
@@ -325,7 +325,7 @@ ul .row {
     height: 100%;
     position: relative;
 }
-.card-work .card-title :hover {
+.card-work:hover .card-title  {
     opacity: 1;
 }
 .card-work .card-title a {
