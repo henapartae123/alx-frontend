@@ -35,7 +35,7 @@ a:active {
     color:var(--color-primary);;
 }
 .section-header {
-    align-content: var(--section-header-align)
+    text-align: var(--section-header-align)
 }
 .section-title {
     font-family: var(--font-family-title);
