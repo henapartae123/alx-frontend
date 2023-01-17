@@ -313,7 +313,7 @@ ul .row {
     height: 100%;
     position: relative;
 }
-.card-work .card-title :hover {
+.card-work:hover .card-title {
     opacity: 1;
 }
 .card-work .card-title a {
@@ -321,7 +321,7 @@ ul .row {
     text-decoration: none;
     padding-top: 45%;
 }
-.card-work .card-title a ::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
