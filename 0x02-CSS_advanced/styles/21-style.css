@@ -1,6 +1,8 @@
 @import "normalize.css";
 
-* {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 html {
@@ -8,17 +10,17 @@ html {
     font-size: 62.5%;
     }
 body {
-    background-color: var(--text-color);
+    -color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
-a a.href {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
@@ -41,7 +43,7 @@ a:active {
     padding: var(--section-padding);
 }
 .section-header {
-    align-content: var(--section-header-align);
+    text-align: var(--section-header-align);
     padding: var(--section-header-padding);
 }
 .section-body {
