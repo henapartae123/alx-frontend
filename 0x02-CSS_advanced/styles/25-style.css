@@ -47,7 +47,6 @@ a:active {
 
 .card-category {
     color: var(--color-primary);
-    ;
 }
 
 .section {
@@ -122,7 +121,7 @@ a:active {
 
 }
 
-.nav .nav-link :hover {
+.nav .nav-link:hover {
     color: nav-item-link-hover;
 }
 
