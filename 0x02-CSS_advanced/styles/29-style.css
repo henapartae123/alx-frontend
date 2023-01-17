@@ -121,10 +121,6 @@ a:active {
     padding: 0.5rem 1rem;
 
 }
-.nav .nav-link .nav-item ::before {
-    background-color: var(--color-primary);
-    width: 100%;
-}
 .nav .nav-link:hover {
     color: var(--color-white);
 }
@@ -135,8 +131,12 @@ a:active {
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
+    height: 0.2rem;
 }
+.nav .nav-item:hover .nav-link::before {
+    background-color: var(--color-primary);
+    width: 100%;
+  }
 ul.row {
     margin: 0;
     padding: 0;
