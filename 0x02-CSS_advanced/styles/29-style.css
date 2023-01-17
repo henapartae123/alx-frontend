@@ -259,15 +259,15 @@ ul .row {
     clear: both;
 }
 
-.card-services> .card-title {
+.card-services .card-title {
     margin: 0;
 }
-.card-services>a {
+.card-services a {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
 }
-.card-services>a :hover {
+.card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
@@ -276,12 +276,12 @@ ul .row {
 .card-testimonial {
     text-align: center;
 }
-.card-testimonial> .card-avatar {
+.card-testimonial .card-avatar {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
 }
-.card-testimonial>.card-quote>cite {
+.card-testimonial .card-quote>cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
@@ -290,10 +290,10 @@ ul .row {
 .section-hero {
     background-size: 90rem auto;
 }
-.section-hero>.section-title {
+.section-hero .section-title {
     margin-bottom: 5rem;
 }
-.section-hero>.section-inner {
+.section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
 }
 
