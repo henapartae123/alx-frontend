@@ -126,7 +126,7 @@ a:active {
 .nav .nav-link :hover {
     color: var(--color-white);
 }
-.nav .nav-link ::before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -226,7 +226,7 @@ ul .row {
     text-decoration: var(--button-text-decoration);
     
 }
-.button :hover {
+.button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decorattion);
     background-color: var(--button-hover-background);
